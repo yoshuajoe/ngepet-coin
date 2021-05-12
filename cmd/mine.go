@@ -11,8 +11,11 @@ var PENDING_TRANSACTION = []block.BlockTransaction{}
 func main() {
 	blockChain := blockchain.BlockChain{}
 	blockChain.Blocks = append(blockChain.Blocks, generateGenesisBlock())
-	
-	?
+
+	// blockchain.New(blockChain, []string{
+	// 	"http://localhost:3000",
+	// })
+
 }
 
 func generateGenesisBlock() block.Block {
